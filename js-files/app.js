@@ -66,8 +66,9 @@ function sendMail() {
 /*         Host : "smtp.elasticemail.com",
         Username : "shezronn@gmail.com",
         Password : "6252A0DFE08E110609955A6D27E0B6BCF4AD", */
-        SecureToken : "189e7e7d-18a8-483e-8616-3a87183c1927",
-        To : 'shezron@outlook.com',
+        /* SecureToken : "189e7e7d-18a8-483e-8616-3a87183c1927", */
+        SecureToken:"44369cc6-cb1c-4961-b823-a56e11b4db83",
+        To : 'c0d3m45t3r.87@gmail.com',
         From : emailAddress.value,
         Subject : "DELANI STUDIO CUSTOMER FEEDBACK",
         Body : clientMessage.value
