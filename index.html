@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="css-files/styles.css">
+    <link rel="icon" href="/image-files/backgrounds/h_image.jpg">
+    <title>DELANI STUDIOS</title>
+
+</head>
+
+<body>
+
+    <!-- THE WELCOME-HOME PAGE -->
+    <div class="container-fluid text-light text-center align-content-end pb-2" id="home" >
+
+        <img class="mt-5 py-4 " src="/image-files/logo/logo.png" alt="delani studios logo">
+
+        <div class=" mt-2 pt-5">
+            <h6 class="display-6 my-2 py-4 heading">WELCOME</h6>
+            <h6 class="display-6 mt-0 pb-2 heading">TO DELANI STUDIOS</h6>
+            <p class="paragraph pb-5">WHERE AMAZING PEOPLE ARE MAKING AMAZING DESIGNS IN A FUN ENVIRONMENT</p>
+        </div>
+
+        <div><img class="mouse mt-5 pt-5" src="/image-files/mouse_click.png" alt="mouse-click"></div>
+    </div>
+    
+    <!-- ABOUT US -->
+    <div class=" container-fluid text-center" id="about-us">
+
+        <h4 class="mt-5 heading">ABOUT US</h4>
+        <p class="fs-6 px-5 paragraph">When you work with us, you are part of a team of committed collaborators. All aspects of our software development process is intergrated, interactive and agile. <br><br> Our approach unifies design, development and product management to create exceptional products. <br><br> We start each project by understanding your business goals, the user's needs and the product requirements. <br><br> Then we help translate them into effective and elegant solutions.</p>
+    
+    </div>
+
+    <!-- SERVICES -->
+        <div class="container-fluid text-center align-content-center text-light" id="services"> 
+
+            <h4 class="mt-5 p-5 pb-0 heading">SERVICES</h4>
+            <p class="p-5 pt-0 paragraph">Before we sign a contract or write a line of code our team will spend the necessary time needed to understand your product vision. <br><br> The outcome of this scoping session is a proposal or high level statement of work. <br><br> Based on your requirements, we can provide a complete offering or just the pieces you need.</p>
+        </div>
+
+    <!-- WHAT WE DO -->
+    <div class="container-fluid" id="what-we-do">
+
+        <h4 class="text-center pt-2 heading">WHAT WE DO</h4>
+
+        <div class="d-flex flex-sm-column flex-md-row align-items-center justify-content-around py-2 wwd">
+
+            <div class="my-sm-4">
+
+                <div class="text-center wwdTexts text-wrap" style="width: 10rem;">
+                    <h6 class="border-bottom border-3 pb-2">DESIGN</h6>
+                    <small>We make the best project designs in line with your product vision</small>
+                </div>
+                <img class="img-fluid wwdIcons" src="/image-files/services_icons/design_icon.png" alt="design icon" title="Design">
+
+            </div>
+
+            <div class="my-sm-4">
+
+                <div class="text-center wwdTexts text-wrap" style="width: 10rem;">
+                    <h6 class="border-bottom border-3 pb-2">WEB DEVELOPMENT</h6>
+                    <small>We are the best at web development. Hire us to develop your website.</small>
+                </div>
+                <img class="img-fluid wwdIcons" src="/image-files/services_icons/dev_icon.png" alt="dev icon">
+
+            </div>
+
+            <div class="my-sm-4">
+
+                <div class="text-center wwdTexts text-wrap" style="width: 10rem;">
+                    <h6 class="border-bottom border-3 pb-2">PRODUCT</h6>
+                    <small>We make the best product design. Hire us to actualise your vision.</small>
+                </div>
+                <img class="img-fluid wwdIcons" src="/image-files/services_icons/product_icon.png" alt="product icon">
+
+            </div>
+
+            
+        </div>
+
+    </div>
+        
+    <!-- PORTFOLIO -->
+    <div class="container-fluid">
+
+        <h4 class="text-center mt-5 heading">PORTFOLIO</h4>
+
+        <div class="row g-1 mb-5 portfolio">
+
+            <div class="col-3"><img class="img-fluid img-thumbnail portfolio-pics" src="/image-files/portfolio/work1.jpg" alt="project one"></div>
+            <div class="col-3"><img class="img-fluid img-thumbnail portfolio-pics" src="/image-files/portfolio/work2.jpg" alt="project two"></div>
+            <div class="col-3"><img class="img-fluid img-thumbnail portfolio-pics" src="/image-files/portfolio/work3.jpg" alt="project three"></div>
+            <div class="col-3"><img class="img-fluid img-thumbnail portfolio-pics" src="/image-files/portfolio/work4.jpg" alt="project four"></div>
+            <div class="col-3"><img class="img-fluid img-thumbnail portfolio-pics" src="/image-files/portfolio/work5.jpg" alt="project five"></div>
+            <div class="col-3"><img class="img-fluid img-thumbnail portfolio-pics" src="/image-files/portfolio/work6.jpg" alt="project six"></div>
+            <div class="col-3"><img class="img-fluid img-thumbnail portfolio-pics" src="/image-files/portfolio/work7.jpg" alt="project seven"></div>
+            <div class="col-3"><img class="img-fluid img-thumbnail portfolio-pics" src="/image-files/portfolio/work8.jpg" alt="project eight"></div>
+
+        </div>
+
+    </div>
+
+    <!-- CONTACT US -->
+    <div class="container-fluid" id="contact-us">
+        <div class="row text-light mx-5">
+            <form onsubmit="sendMail(); return false;">
+
+                <legend class="my-2 text-center heading">CONTACT US</legend>
+
+                <div class="row g-2 mt-1 text-light">
+
+                    <div class="col-md-6">
+                        <input type="text" class="form-control bg-light bg-opacity-50" name="fullNames" id="fullNames" placeholder="Names..." required>
+                    </div>
+                
+                    <div class="col-md-6">
+                        <input type="email" class="form-control bg-light bg-opacity-50" name="emailAddress" id="emailAddress" placeholder="Email..."  required>
+                    </div>
+
+                </div>
+
+                <div class="col-md-12 mt-2">
+                    <textarea class="form-control bg-light bg-opacity-50" name="clientMessage" id="clientMessage" placeholder="Your message here..." rows="5" required></textarea>
+                </div>
+
+                <button type="submit" class="col-12 btn btn-sm btn-link mt-2 fs-4 text-light" id="submitButton">SUBMIT</button>
+
+            </form>
+        </div>
+    </div>
+
+    <!-- SOCIAL ICONS -->
+    <div class="container " id="social-icons">
+
+        <div class="d-flex align-items-center justify-content-around m-3">
+            <img class="img-fluid" src="/image-files/social_icons/behance.png" alt="behance" style="font-size:xx-small ;">
+            <img class="img-fluid" src="/image-files/social_icons/dribble.png" alt="dribble">
+            <img class="img-fluid" src="/image-files/social_icons/facebook.png" alt="facebook">
+            <img class="img-fluid" src="/image-files/social_icons/flickr.png" alt="flickr">
+            <img class="img-fluid" src="/image-files/social_icons/g_plus.png" alt="g_plus">
+            <img class="img-fluid" src="/image-files/social_icons/pinterest.png" alt="pinterest">
+            <img class="img-fluid" src="/image-files/social_icons/skype.png" alt="skype">
+            <img class="img-fluid" src="/image-files/social_icons/stumble_upon.png" alt="stumble_upon">
+            <img class="img-fluid" src="/image-files/social_icons/twitter.png" alt="twitter">
+            <img class="img-fluid" src="/image-files/social_icons/you_tube.png" alt="you_tube">
+        </div>
+
+        <div class="text-center">
+            <p id="sign-out">DELANI STUDIOS&trade;<br><small id="copyright">COPYRIGHT 2022</small></p>
+        </div>
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.slim.min.js" integrity="sha256-w8CvhFs7iHNVUtnSP0YKEg00p9Ih13rlL9zGqvLdePA=" crossorigin="anonymous"></script>
+    <script src="/js-files/app.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>  
+</body>
+</html>
