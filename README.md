@@ -1,4 +1,4 @@
-# PROJECT NAME: QUIZ BOARD #
+# PROJECT NAME: DELANI STUDIO #
 ======================================
 #### Project description. ####
 This project aims to implement everything I have learnt from Bootstrap and jQuery to recreate a landing page for a fictional studio called Delani Studios.
