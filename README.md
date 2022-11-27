@@ -24,7 +24,7 @@ This app is fairly easy to set and run and no scripts need to be run prior to it
 - Visual Studio Code
   
 #### Live page ####
-https://zeuskeyz.github.io/C4-GRP2-WK3-IP/
+https://zeuskeyz.github.io/C4-GRP2-WK3-IP-DELANISTUDIO
 
 #### Contact information ####
 Reach me through any of the below for feedback or assistance.
