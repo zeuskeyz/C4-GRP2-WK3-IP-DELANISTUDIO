@@ -58,3 +58,7 @@
 .wwdIcons:hover, .wwdTexts:hover {
     cursor: pointer;
 }
+
+.description{
+    font-size: x-small;
+}

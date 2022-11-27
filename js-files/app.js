@@ -12,7 +12,7 @@ $("document").ready(function() {
 
         if (clicked.matches("img")) {
 
-            let narration = e.target.previousElementSibling;
+            let narration = clicked.previousElementSibling;
 
             $(clicked).toggle()
             $(narration).toggle()
@@ -21,7 +21,7 @@ $("document").ready(function() {
 
         else if (clicked.matches("h6") || clicked.matches("small")) {
 
-            let narration = e.target.parentElement.nextElementSibling;
+            let narration = clicked.parentElement.nextElementSibling;
 
             $(clicked.parentElement).toggle()
             $(narration).toggle()
