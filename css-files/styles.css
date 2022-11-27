@@ -55,7 +55,7 @@
     display:block;
 }
 
-.wwdIcons:hover, .wwdTexts:hover {
+.wwdIcons:hover, .wwdTexts:hover, .mouse {
     cursor: pointer;
 }
 
