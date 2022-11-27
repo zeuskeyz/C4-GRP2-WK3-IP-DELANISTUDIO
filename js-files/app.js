@@ -1,10 +1,9 @@
-const fullNames = document.querySelector("#fullNames");
-const emailAddress = document.querySelector("#emailAddress");
-const clientMessage = document.querySelector("#clientMessage");
 
 /*  USER INTERFACE LOGIC */
 
 $("document").ready(function() {
+
+    let names = $("#fullNames").val();
 
     /* ADDS A FTOGGLE FUNCTION BETWEEN THE WWD IMAGES AND THE DESCRIPTION */
     $(".wwd").click(function (e) {
@@ -55,24 +54,13 @@ $("document").ready(function() {
         $(this).mouseleave(() => $(this).css({transform: "translateY(0px)"}))
       
     })
+
+    /* ADDS AN ALERT POP UP FUNCTION TO THE SUBMIT BUTTON*/
+    $("#submitButton").click(function(){
+
+        let fullNames = $("#fullNames").val();
+        alert(`Thanks ${fullNames} for contacting us. \nWe'll be reaching back within 24Hrs`);
+
+    })
    
 });
-
-
-
-function sendMail() {
-
-    Email.send({
-/*         Host : "smtp.elasticemail.com",
-        Username : "shezronn@gmail.com",
-        Password : "6252A0DFE08E110609955A6D27E0B6BCF4AD", */
-        /* SecureToken : "189e7e7d-18a8-483e-8616-3a87183c1927", */
-        SecureToken:"44369cc6-cb1c-4961-b823-a56e11b4db83",
-        To : 'c0d3m45t3r.87@gmail.com',
-        From : emailAddress.value,
-        Subject : "DELANI STUDIO CUSTOMER FEEDBACK",
-        Body : clientMessage.value
-    }).then(
-      message => alert(`Thank you ${fullNames.value}. \nYour Message was sent successfully.`)
-    );
-}
