@@ -56,10 +56,15 @@ $("document").ready(function() {
     })
 
     /* ADDS AN ALERT POP UP FUNCTION TO THE SUBMIT BUTTON*/
-    $("#submitButton").click(function(){
+    $("#submitButton").click(function() {
 
-        let fullNames = $("#fullNames").val();
-        alert(`Thanks ${fullNames} for contacting us. \nWe'll be reaching back within 24Hrs`);
+        if ($("#fullNames").attr("required", false) || $("#emailAddress").attr("required", false) || $("#clientMessage").attr("required", false)){
+            alert("Please fill all entries");
+        }
+        else {
+            let fullNames = $("#fullNames").val();
+            alert(`Thanks ${fullNames} for contacting us. \nWe'll be reaching back within 24Hrs`);
+        }  
 
     })
    
